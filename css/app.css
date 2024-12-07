@@ -1,0 +1,159 @@
+
+/* Fonts */
+
+@font-face {
+    font-family: alte;
+    src: url(../fonts/alte-haas-grotesk.regular.ttf);
+}
+
+@font-face {
+    font-family: alte-bold;
+    src: url(../fonts/alte-haas-grotesk.bold.ttf);
+}
+
+
+/* HTML element overrides */
+
+body{
+    background-color: #000004;
+    color: #777777;
+    font-family: alte;
+}
+
+p {
+    font-family: alte;
+    color: #fff;
+}
+
+a {
+    color: #05a000;
+    font-family: alte-bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #777777;
+    font-family: alte-bold;
+}
+
+/* Foundation overrides */
+
+.button{
+    border: 2px solid #ffa700;
+    border-radius: 0px 999px 999px 0px;
+    background-color: #000004;
+    color: #ffff00;
+    font-family: alte-bold;
+    margin: 10px;
+}
+
+.button:hover, .button:focus {
+    background-color: #005ac2;
+    color: #ffff00;
+}
+
+.small{
+    border-radius: 999px 0px 0px 999px;
+    margin: 5px;
+    font-family: alte;
+}
+
+
+/* Custom classes & ids */
+
+#profile_pic {
+    border: 2px solid #ffa700;
+    border-radius: 0px 999px 999px 0px;    
+
+    margin-top: 111px;
+    margin-bottom: 10px;
+    margin-left: calc(50% - 125px);
+    margin-right: calc(50% - 125px);
+
+    width: 250px;
+    padding: 0px;
+}
+
+#profile_pic_med {
+    border: 2px solid #ffa700;
+    border-radius: 0px 999px 999px 0px;    
+
+    margin-top: 25px;
+    margin-bottom: 10px;
+
+    width: 180px;
+    padding: 0px;
+}
+
+#med_main {
+    padding: 10px;
+    margin: 10px;
+}
+
+#med_btns {
+    padding-top:55px;
+}
+
+.centerer {
+    text-align: center;
+}
+
+.righter{
+    text-align: right;
+}
+
+.anti_button{
+    border-radius: 999px 0px 0px 999px;
+}
+
+.book_callout {
+    background-color: transparent;
+    border: 2px solid #ffa700;
+    padding: 5px;
+}
+
+.book_img {
+    float: left;
+    width: 140px;
+    
+    margin-left: calc(50% - 70px);
+    margin-right: calc(50% - 70px);
+
+    border: 2px solid #333;
+}
+
+.blurb {
+    margin-top: 20px;
+}
+
+.book_cell {
+    margin: 0px;
+    margin-bottom: 42px;
+}
+
+#podcastsModal{
+    background-color: #000004;
+    border: 2px solid #ffa700;
+}
+
+.green {
+    color: #05a000;
+}
+
+.offwhite {
+    color: #ddecdc;
+}
+
+
+/**  COLORS
+
+black:      000004
+borders:    ffa700 (orange)
+yellow:     ffff00
+red:        c40000
+green:      05a000
+blue:       005ac2
+white:      ffffff
+gray:       878787
+
+*/
+
