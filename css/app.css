@@ -130,6 +130,11 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 42px;
 }
 
+#projects_title {
+    margin-top: 25px;
+    border-top: 3px solid #333;
+}
+
 #podcastsModal{
     background-color: #000004;
     border: 2px solid #ffa700;
